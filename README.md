@@ -1,2 +1,16 @@
-# Human-Disease-Prediction
-Human Disease Prediction using Machine learning
+# Disease-Prediction-System
+Install Required Packages:
+``` 
+pip install -r requirements.txt
+pip install easyocr
+pip install Flask Pillow pytesseract
+```
+Train the Model: Run the Jupyter Notebook to train the model and save the .pkl files.
+```
+symptom_mapping.pkl,symptom_mapping.pkl
+```
+Start the Flask App
+```
+python app.py
+```
+Access the Application: Open your web browser and go to http://127.0.0.1:5000/
